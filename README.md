@@ -1,9 +1,5 @@
 # Intraday Beta Estimation Strategy Using a Kalman Filter
 
-Georgia Tech IC Quant Sector — Tristan Thakur, Akshar Ravichandran, Nitiwith Rotchanarak, Vatsal Dwivedi, Amit Saha
-
-## Overview
-
 Standard CAPM assumes an equity's beta is constant. This project estimates beta dynamically against a benchmark index using a state-space model and a Kalman filter, updating the estimate recursively as new data arrives. The goal is a real-time beta (with uncertainty) for hedging, risk measurement, and regime-shift detection.
 
 ## Approach
